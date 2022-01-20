@@ -1,14 +1,15 @@
-// function preload() {
-//     // Ensure the .ttf or .otf font stored in the assets directory
-//     // is loaded before setup() and draw() are called
-//     font = loadFont('assets/monster/Montserrat-Black.ttf');
-//   }
+function preload() {
+    // Ensure the .ttf or .otf font stored in the assets directory
+    // is loaded before setup() and draw() are called
+    // font = loadFont('../../../assets/monster/Montserrat-Black.ttf');
+    font = loadFont('../../assets/monster/Marshmallows and Chocolate - OTF.otf');
+  }
 
 function setup() {
     createCanvas(800,600);
-    // textFont(font);
-    // textSize(30);
-    // textAlign(CENTER, CENTER);
+    textFont(font);
+    textSize(30);
+    textAlign(CENTER, CENTER);
 }
 
 function draw() {
