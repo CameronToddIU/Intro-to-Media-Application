@@ -18,10 +18,14 @@ function draw()
     // count++;
     // console.log(count);
 
+    //moves the circle 5px to the right every frame
     fill('black');
     circle(movex+=5,300,50);
 
+    //cricle check function
     circleCheck();
+
+    //
     circle(mouseX,mouseY,50);
 
     fill('yellow');
