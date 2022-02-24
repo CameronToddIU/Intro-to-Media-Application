@@ -1,10 +1,9 @@
-function setup()
-{
-    let cvs = createCanvas(800,600);
-    cvs.id('mycanvas');
-}
+//array to print
+let print = [11, 16, 35];
 
-function draw()
-{
-    background(255);
-}
+
+        //prints the 2nd number
+        document.getElementById("second").innerHTML = print[1];
+
+        // prints the third number
+        document.getElementById("third").innerHTML = print[2];

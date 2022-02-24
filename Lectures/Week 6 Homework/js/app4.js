@@ -1,14 +1,9 @@
-function setup()
-{
-    let cvs = createCanvas(800,600);
-    cvs.id('mycanvas');
-    
+//array to print
+let print = ["Furries","Pizza", "Games", "Pepsi", "Drawing"];
 
-    
+for(i=0; i < 5; i++)
+{
+
+    document.getElementById("myList").innerHTML += print[i] + " Is on of my favorite things <br/>";
 }
 
-function draw()
-{
-    background(255);
-    circle(mouseX,mouseY,50);
-}
