@@ -1,5 +1,5 @@
 //array to print
-let print = ["Furries","Pizza", "Games", "Pepsi", "Drawing"];
+let print = ["spageht","Pizza", "Games", "Pepsi", "Drawing"];
 
 for(i=0; i < 5; i++)
 {
