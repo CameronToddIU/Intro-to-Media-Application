@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 50px;
+  background-color: #9acd32;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.headers {
+  margin-top: 20px;
+  height: 100px;
+  background-color: beige;
+}
+
+h1 {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h2 {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  margin: 5px;
+  float: left;
+}
+
+.button1 {
+  width: 100px;
+  height:50px;
+  margin-left: 25px;
+  font-size: 45px;
+}
+
+#box {
+  width: 500px;
+  height: 500px;
+  border: 5px solid black;
+}
+
+.redHolder{
+  display: flex;
+  width: 500px;
+  background-color: #9acd32;
+}
+
+#redText{
+  font-size: 45px;
+}
+
+
+.button2 {
+  width: 100px;
+  height:50px;
+  margin-left: 25px;
+  font-size: 45px;
+}
+
+
+
+.greenHolder{
+  display: flex;
+  width: 500px;
+  background-color: #9acd32;
+}
+
+#greenText{
+  font-size: 45px;
+}
+
+.button3 {
+  width: 100px;
+  height:50px;
+  margin-left: 25px;
+  font-size: 45px;
+}
+
+
+
+.blueHolder{
+  display: flex;
+  width: 500px;
+  background-color: #9acd32;
+}
+
+#blueText{
+  font-size: 45px;
+}
+
+#currentColorBox
+{
+  display: flex;
+}

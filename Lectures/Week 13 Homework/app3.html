@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      p.solid {
+        border-style: solid;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      /* goes to the id of mycanvas in .js */
+      #mycanvas {
+        /* centers the canvas */
+        margin: 0 auto;
+        /* makes the canvas a block element */
+        display: block;
+        /* gives a 2 pixel border */
+        border: 2px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="app.html">Color Changer</a>
+      <a href="app2.html">Color Mixer</a>
+      <a href="app3.html">Flash Cards</a>
+    </nav>
+
+    <p class="solid"></p>
+
+    <button onclick="getAnswer(event)" data-answer="A Gnelf">
+      What is a Gnelf?
+    </button>
+    <button onclick="getAnswer(event)" data-answer="A Gnoblin">
+      What is a Gnoblin
+    </button>
+    <button onclick="getAnswer(event)" data-answer="A Gnome">
+      What is a Gnome
+    </button>
+
+    <script src="js/app3.js"></script>
+  </body>
+</html>

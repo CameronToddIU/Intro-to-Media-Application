@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      p.solid {
+        border-style: solid;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <style>
+      /* goes to the id of mycanvas in .js */
+      #mycanvas {
+        /* centers the canvas */
+        margin: 0 auto;
+        /* makes the canvas a block element */
+        display: block;
+        /* gives a 2 pixel border */
+        border: 2px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="app.html">Color Changer</a>
+      <a href="app2.html">Color Mixer</a>
+      <a href="app3.html">Flash Cards</a>
+    </nav>
+
+    <p class="solid"></p>
+
+    <div id="box"></div>
+    <div id="currentColorBox">
+      Current Color
+      <p>(0,0,0)</p>
+    </div>
+    <!-- ----------------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="redHolder">
+      <div id="redText">Red:</div>
+      <button
+        class="button1"
+        id="red1"
+        onclick="addColor(event)"
+        data-increase="1"
+        data-color="red"
+      >
+        +1
+      </button>
+
+      <button
+        class="button1"
+        id="red2"
+        onclick="addColor(event)"
+        data-increase="5"
+        data-color="red"
+      >
+        +5
+      </button>
+
+      <button
+        class="button1"
+        id="red3"
+        onclick="addColor(event)"
+        data-increase="10"
+        data-color="red"
+      >
+        +10
+      </button>
+    </div>
+
+    <!-- -------------------------------------------------------------------------------------- -->
+    <div class="greenHolder">
+      <div id="greenText">Green:</div>
+      <button
+        class="button2"
+        id="green1"
+        onclick="addColor(event)"
+        data-increase="1"
+        data-color="green"
+      >
+        +1
+      </button>
+
+      <button
+        class="button2"
+        id="green2"
+        onclick="addColor(event)"
+        data-increase="5"
+        data-color="green"
+      >
+        +5
+      </button>
+
+      <button
+        class="button2"
+        id="green3"
+        onclick="addColor(event)"
+        data-increase="10"
+        data-color="green"
+      >
+        +10
+      </button>
+    </div>
+
+    <!-- ----------------------------------------------------------------------------------------------------- -->
+    <div class="blueHolder">
+      <div id="blueText">Blue:</div>
+      <button
+        class="button2"
+        id="blue1"
+        onclick="addColor(event)"
+        data-increase="1"
+        data-color="blue"
+      >
+        +1
+      </button>
+
+      <button
+        class="button2"
+        id="blue2"
+        onclick="addColor(event)"
+        data-increase="5"
+        data-color="blue"
+      >
+        +5
+      </button>
+
+      <button
+        class="button2"
+        id="blue3"
+        onclick="addColor(event)"
+        data-increase="10"
+        data-color="blue"
+      >
+        +10
+      </button>
+    </div>
+
+    <script src="js/app2.js"></script>
+  </body>
+</html>
