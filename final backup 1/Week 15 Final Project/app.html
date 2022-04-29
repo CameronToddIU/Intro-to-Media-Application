@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      p.solid {
+        border-style: solid;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="enemyContainer">
+      <div class="text">
+        <p>Health: 0</p>
+      </div>
+      <div
+        class="enemy"
+        id="Enemy 1"
+        onclick="changeColor(event)"
+        data-color="red"
+      ></div>
+    </div>
+
+    <div class="cardHolder">
+      <div
+        class="square"
+        id="Square 1"
+        onclick="useCard(event)"
+        data-color="gray"
+        card="touch"
+        cardID="0"
+        ;
+      >
+        <p>End Turn</p>
+      </div>
+      <div
+        class="square"
+        id="Square 2"
+        onclick="useCard(event)"
+        data-color="gray"
+        card="touch"
+        cardID="1"
+        ;
+      >
+        <p>End Turn</p>
+      </div>
+      <div
+        class="square"
+        id="Square 3"
+        onclick="useCard(event)"
+        data-color="gray"
+        card="touch"
+        cardID="2"
+        ;
+      >
+        <p>End Turn</p>
+      </div>
+
+      <div class="square" id="Square 4" onclick="turn(event)" data-color="gray">
+        End Turn
+      </div>
+    </div>
+    <div class="playerHealth">
+      <p>Player Health: 0</p>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

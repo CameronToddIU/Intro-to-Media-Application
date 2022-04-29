@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.enemyContainer {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.text {
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+}
+
+.enemy {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  margin: 5px;
+  float: left;
+  text-align: center;
+  padding: 75px 0;
+
+}
+
+
+.cardHolder {
+  margin-top: 100px;
+}
+
+.playerHealth {
+  width: 200px;
+  height: 50px;
+  background-color: aquamarine;
+  margin-top: 320px;
+  margin-left: 200px;
+}
