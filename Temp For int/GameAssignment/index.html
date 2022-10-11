@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="buttons">
+      <button id="column1" onclick="Drop (event)" column="1">1</button>
+      <button id="column2" onclick="Drop (event)" column="2">2</button>
+      <button id="column3" onclick="Drop (event)" column="3">3</button>
+      <button id="column4" onclick="Drop (event)" column="4">4</button>
+      <button id="column5" onclick="Drop (event)" column="5">5</button>
+      <button id="column6" onclick="Drop (event)" column="6">6</button>
+      <button id="column7" onclick="Drop (event)" column="7">7</button>
+    </div>
+
+    <div class="gameWrapper">
+      <p class="border">| | | | | |</p>
+      <p id="columnHolder1">- - - - - -</p>
+      <p class="border">| | | | | |</p>
+      <p id="columnHolder2">- - - - - -</p>
+      <p class="border">| | | | | |</p>
+      <p id="columnHolder3">- - - - - -</p>
+      <p class="border">| | | | | |</p>
+      <p id="columnHolder4">- - - - - -</p>
+      <p class="border">| | | | | |</p>
+      <p id="columnHolder5">- - - - - -</p>
+      <p class="border">| | | | | |</p>
+      <p id="columnHolder6">- - - - - -</p>
+      <p class="border">| | | | | |</p>
+      <p id="columnHolder7">- - - - - -</p>
+      <p class="border">| | | | | |</p>
+    </div>
+
+    <div class="playerWrap" id="playerWraper">
+      <h1 id="playerText">Player 1:</h1>
+      <h3 id="playerTokenText">Drop an X</h3>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

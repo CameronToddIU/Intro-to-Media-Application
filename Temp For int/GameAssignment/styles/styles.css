@@ -1,0 +1,57 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+.buttons {
+    margin-left: 20px;
+    display: flex;
+    width: 375px ;
+    justify-content: space-around;
+    
+}
+
+.buttons button {
+    /* display: inline-block; */
+    /* margin-left: 20px; */
+    width: 30px;
+    
+}
+
+
+
+.gameWrapper {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-gap: 5px; 
+    width: 300px;
+    
+}
+
+.gameWrapper .border {
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.gameWrapper p {
+    font-size: 32px;
+    /* display: flex; */
+    width: 5px;
+}
+
+.playerWrap {
+    width: 300px;
+    border: solid 3px;
+    margin-top: -180px;
+    margin-left: 500px;
+    text-align: center;
+    background-color: yellow;
+
+}
